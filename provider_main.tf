@@ -18,7 +18,7 @@ resource "aws_vpc" "glb_vpc" {
 #Adding backend for statefile
 terraform {
   backend "s3" {
-    bucket = "aws-infra-glb-config"
+    bucket = "aws-infra****-glb-xxx"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
